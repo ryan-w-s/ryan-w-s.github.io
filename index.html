@@ -130,12 +130,15 @@
             <p>
             Software Engineer in San Francisco, UC Irvine Grad, and Exotic Cat Enthusiast
             </p>
-            <img class="portrait-img" src="Ryan-Stolliker.jpg">
+            <!-- <img class="portrait-img" src="Ryan-Stolliker.jpg"> -->
 
         </div>
 
         <div class="jumbotron op" id="social">
             <h2 class="text-center">Contact me</h2>
+            <div class="row">
+                <a class="btn btn-block col-md-12 li-color" href="https://www.linkedin.com/in/ryan-stolliker" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn (preferred)</a>
+            </div>
             <div class="row">
                 <a class="btn btn-block col-md-12 twit-color" href="https://twitter.com/ryanws_dev" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
             </div>
@@ -143,34 +146,58 @@
                 <a class="btn btn-block col-md-12 gh-color" href="https://github.com/ryan-w-s" target="_blank"><i class="fa fa-github-square"></i> GitHub</a>
             </div>
             <div class="row">
-                <a class="btn btn-block col-md-12 insta-color" href="https://www.instagram.com/ryans_dev/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
-            </div>
-            <div class="row">
-                <a class="btn btn-block col-md-12 al-color" href="https://angel.co/ryan-stolliker" target="_blank"><i class="fa fa-angellist"></i> Angel List</a>
-            </div>
-            <div class="row">
-                <a class="btn btn-block col-md-12 fb-color" href="https://www.facebook.com/profile.php?id=100007041165315" target="_blank"><i class="fa fa-facebook-official"></i>  Facebook</a>
-            </div>
-            <div class="row">
-                <a class="btn btn-block col-md-12 li-color" href="https://www.linkedin.com/in/ryan-stolliker-15a664107" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
-            </div>
-            <div class="row">
-                <a class="btn btn-block col-md-12 fcc-color" href="https://www.freecodecamp.com/rstolliker" target="_blank"><i class="fa fa-code"></i> Free Code Camp</a>
-            </div>
-            <div class="row">
-                <a class="btn btn-block col-md-12 t-color" href="https://awesome-compsci.tumblr.com" target="_blank"><i class="fa fa-tumblr-square"></i> Tumblr</a>
-            </div>
-            <div class="row">
-                <a class="btn btn-block col-md-12 g-color" href="https://plus.google.com/u/1/106581873615128202302/posts" target="_blank"><i class="fa fa-google-plus-square"></i> Google+</a>
+                <a class="btn btn-block col-md-12 al-color" href="https://angel.co/u/ryan-stolliker" target="_blank"><i class="fa fa-angellist"></i> Angel List</a>
             </div>
         </div>
+
+                
+        <div class="jumbotron op" id="experience">
+            <div class="row">
+                <h1 class="text-center">Experience</h1>
+                <h2>Software Engineer, Quantcast - June 2018 to March 2023</h2>
+                <ul>
+                    <li>
+                        Member of <i>Common Tools and Services</i> team building and maintaining internal applications to support other teams.
+                    </li>
+                    <li>
+                        Wrote Ruby on Rails service that takes parameters from a React UI or GraphQL API and turns them into a group of configured Kubernetes objects providing users easy access to 
+                        hosting, DNS, monitoring, logging, Vault secrets integration, and rollbacks, eventually responsible for running nearly a thousand user services.
+                    </li>
+                    <li>
+                        Contributed to existing Rails project for managing and monitoring cronjob tasks, including improving page load times via PostgreSQL query optimizations and stability bugfixes. 
+                    </li>
+                    <li>
+                        Created Python application for the automated, scheduled, non-disruptive termination of Kubernetes nodes, 
+                        which later was revisited to tailor to other teams' unique use cases and for cycling out old nodes during cluster migrations.
+                    </li>
+                    <li>
+                        Migrated a legacy in-house user login Java service to Okta, providing additional security to users and reducing oncall tickets by roughly 10 per week.
+                    </li>
+                    <li>
+                        Upgraded Kubernetes cluster versions five times, including both migrations to separate clusters where services had to be moved by me with a seamless switchover
+                        as well as Amazon EKS in-place upgrades, every time requiring proactive communication with other teams about API deprecations and deployment windows resulting in little-to-no downtime.
+                    </li>
+                    <li>
+                        Maintained installations of 3rd party and vendored services, including Github Enterprise, Graylog, Sourcegraph, ArgoCD, Istio, among others.
+                    </li>
+                </ul>
+
+                <h2>Software Engineering Intern, Google - Summer 2017</h2>
+                <ul>
+                    <li>Worked with <i>Ads Experiments Infrastructure</i> team.</li>
+                    <li>Updated existing internal system using C++ to reduce memory and resource usage, reducing the size of objects in memory by 75-96%.</li>
+                    <li>Created and maintained documentation and unit tests.</li>
+                </ul>
+            </div>
+        </div>
+        
         
         <div class="jumbotron op" id="education">
             <div class="row">
                 <h1 class="text-center">Education</h1>
                 <h2>University of California, Irvine</h2>
                 <ul>
-                    <li>Expected graduation June 2018</li>
+                    <li>Graduated June 2018</li>
                     <li>Bachelor of Science in Computer Science with specializations in Information and Networked Systems</li>
                     <li>GPA 3.6, Dean's Honor Roll received 7 times</li>
                     <li>ARCS Scholar 2015</li>
@@ -178,131 +205,28 @@
                 </ul>
             </div>
         </div>
-        
-        <div class="jumbotron op" id="experience">
-            <div class="row">
-                <h1 class="text-center">Experience</h1>
-                <h2>Software Engineering Intern, Google - Summer 2017</h2>
-                <ul>
-                    <li>Worked with Ads Experiments Infrastructure team to improve internal tools</li>
-                    <li>Updated existing internal system using C++ to reduce memory and resource usage, reducing the size of objects in memory by 75-96%</li>
-                    <li>Created and maintained documentation and unit tests</li>
-                </ul>
-            </div>
-        </div>
-        
+
         <div class="jumbotron op" id="skills">
             <div class="row">
                 <h1 class="text-center">Skills</h1>
                 <h2>Programming Languages</h2>
                 <ul>
-                    <li>C++ (advanced)</li>
-                    <li>Python (advanced)</li>
-                    <li>Java (intermediate)</li>
-                    <li>SQL (intermediate)</li>
-                    <li>HTML5 (working knowledge)</li>
+                    <li>Python</li>
+                    <li>Ruby (on Rails)</li>
+                    <li>Java</li>
+                    <li>C++</li>
                 </ul>
                 
-                <h2>Software</h2>
+                <h2>Systems and Technologies</h2>
                 <ul>
-                    <li>Linux systems</li>
-                    <li>Intellij IDEA</li>
-                    <li>Oracle VirtualBox</li>
-                    <li>Vagrant</li>
+                    <li>Kubernetes</li>
+                    <li>Amazon EKS</li>
+                    <li>Terraform</li>
+                    <li>Jenkins</li>
                 </ul>
             </div>
         </div>
         
-        <div class="jumbotron op text-center" id="projects">
-            <div class="row">
-                <h1>Projects</h1>
-            </div>
-            
-            <p>Non-school projects I have worked on, see my <a href="https://github.com/rstolliker">GitHub</a> for more info.</p>
-
-            <hr>
-
-            <div class="row">
-                <a href="https://github.com/rstolliker/Rosetta-Code-Contributions" target="_blank">
-                    <h2> Rosetta Code Contributions </h2>
-                    <p>
-                        My contributions to Rosetta Code, mainly using TypeScript.
-                    </p>
-                </a>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <a href="https://github.com/rstolliker/APIexample" target="_blank">
-                    <h2> API Client and Server </h2>
-                    <p>
-                        Simple server which collects system diagnostic information about a client through an API.
-                        Uses Python and SQL.
-                    </p>
-                </a>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <a href="https://github.com/rstolliker/templatey" target="_blank">
-                    <h2> Templatey </h2>
-                    <p>
-                        A template management program. Targeted for Linux, built with bash.
-                    </p>
-                </a>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <a href="https://github.com/rstolliker/challenges" target="_blank">
-                    <h2> Coding Challenges </h2>
-                    <!--<img class="img-responsive col-md-12" src="https://40.media.tumblr.com/a92f2a349b87a3e9ad40c12e5a034b4f/tumblr_inline_nyk5wzbmLk1tef292_500.png">-->
-                    <p>
-                        A collection of various coding challenges I have solved from sites like CodeForces, Project Euler, SPOJ, etc.
-                    </p>
-                </a>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <a href="https://codepen.io/rstolliker/full/KVPaaV/" target="_blank">
-                    <h2>Random Quote Generator </h2>
-                    <!--<img class="img-responsive col-md-12" src="http://utahoutdoorfun.com/wp-content/uploads/2013/01/brycecanyon020209brycecanyonwinter09020109_mg_11181.jpg">-->
-                    <p>
-                        Script that serves up a random quote at the press of a button.
-                    </p>
-                </a>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <a href="https://codepen.io/rstolliker/full/eJpZKj/" target="_blank">
-                    <h2>Pomodoro Clock</h2>
-                    <!--<img class="img-responsive col-md-12" src="http://victorygirlsblog.com/wp-content/uploads/2015/09/clock1.jpg">-->
-                    <p>
-                        A special clock for productivity.
-                    </p>
-                </a>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <a href="https://codepen.io/rstolliker/full/JGGjaY/" target="_blank">
-                    <h2>Calculator</h2>
-                    <!--<img class="img-responsive col-md-12" src="http://www.tampaymca.info/2cmby/images/images/Calculator_01.jpg">-->
-                    <p>
-                        Simple calculator using Bootstrap, CSS, and JavaScript with jQuery.
-                    </p>
-                </a>
-            </div>
-
-        </div>
         
     </div>
 </body>
